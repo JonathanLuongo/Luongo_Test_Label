@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58737061D4938FF0018F728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58737051D4938FF0018F728 /* AppDelegate.swift */; };
+		E58737081D4938FF0018F728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58737071D4938FF0018F728 /* ViewController.swift */; };
+		E587370B1D4938FF0018F728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58737091D4938FF0018F728 /* Main.storyboard */; };
+		E587370D1D4938FF0018F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E587370C1D4938FF0018F728 /* Assets.xcassets */; };
+		E58737101D4938FF0018F728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E587370E1D4938FF0018F728 /* LaunchScreen.storyboard */; };
+		E587371B1D4938FF0018F728 /* Luongo_Test_LabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E587371A1D4938FF0018F728 /* Luongo_Test_LabelTests.swift */; };
+		E58737261D4938FF0018F728 /* Luongo_Test_LabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58737251D4938FF0018F728 /* Luongo_Test_LabelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E58737171D4938FF0018F728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58736FA1D4938FF0018F728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58737011D4938FF0018F728;
+			remoteInfo = Luongo_Test_Label;
+		};
+		E58737221D4938FF0018F728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58736FA1D4938FF0018F728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58737011D4938FF0018F728;
+			remoteInfo = Luongo_Test_Label;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E58737021D4938FF0018F728 /* Luongo_Test_Label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luongo_Test_Label.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58737051D4938FF0018F728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58737071D4938FF0018F728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E587370A1D4938FF0018F728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E587370C1D4938FF0018F728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E587370F1D4938FF0018F728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58737111D4938FF0018F728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58737161D4938FF0018F728 /* Luongo_Test_LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luongo_Test_LabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E587371A1D4938FF0018F728 /* Luongo_Test_LabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luongo_Test_LabelTests.swift; sourceTree = "<group>"; };
+		E587371C1D4938FF0018F728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58737211D4938FF0018F728 /* Luongo_Test_LabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luongo_Test_LabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58737251D4938FF0018F728 /* Luongo_Test_LabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luongo_Test_LabelUITests.swift; sourceTree = "<group>"; };
+		E58737271D4938FF0018F728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58736FF1D4938FF0018F728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58737131D4938FF0018F728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E587371E1D4938FF0018F728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58736F91D4938FF0018F728 = {
+			isa = PBXGroup;
+			children = (
+				E58737041D4938FF0018F728 /* Luongo_Test_Label */,
+				E58737191D4938FF0018F728 /* Luongo_Test_LabelTests */,
+				E58737241D4938FF0018F728 /* Luongo_Test_LabelUITests */,
+				E58737031D4938FF0018F728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58737031D4938FF0018F728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58737021D4938FF0018F728 /* Luongo_Test_Label.app */,
+				E58737161D4938FF0018F728 /* Luongo_Test_LabelTests.xctest */,
+				E58737211D4938FF0018F728 /* Luongo_Test_LabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58737041D4938FF0018F728 /* Luongo_Test_Label */ = {
+			isa = PBXGroup;
+			children = (
+				E58737051D4938FF0018F728 /* AppDelegate.swift */,
+				E58737071D4938FF0018F728 /* ViewController.swift */,
+				E58737091D4938FF0018F728 /* Main.storyboard */,
+				E587370C1D4938FF0018F728 /* Assets.xcassets */,
+				E587370E1D4938FF0018F728 /* LaunchScreen.storyboard */,
+				E58737111D4938FF0018F728 /* Info.plist */,
+			);
+			path = Luongo_Test_Label;
+			sourceTree = "<group>";
+		};
+		E58737191D4938FF0018F728 /* Luongo_Test_LabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E587371A1D4938FF0018F728 /* Luongo_Test_LabelTests.swift */,
+				E587371C1D4938FF0018F728 /* Info.plist */,
+			);
+			path = Luongo_Test_LabelTests;
+			sourceTree = "<group>";
+		};
+		E58737241D4938FF0018F728 /* Luongo_Test_LabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E58737251D4938FF0018F728 /* Luongo_Test_LabelUITests.swift */,
+				E58737271D4938FF0018F728 /* Info.plist */,
+			);
+			path = Luongo_Test_LabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58737011D4938FF0018F728 /* Luongo_Test_Label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E587372A1D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_Label" */;
+			buildPhases = (
+				E58736FE1D4938FF0018F728 /* Sources */,
+				E58736FF1D4938FF0018F728 /* Frameworks */,
+				E58737001D4938FF0018F728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luongo_Test_Label;
+			productName = Luongo_Test_Label;
+			productReference = E58737021D4938FF0018F728 /* Luongo_Test_Label.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58737151D4938FF0018F728 /* Luongo_Test_LabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E587372D1D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_LabelTests" */;
+			buildPhases = (
+				E58737121D4938FF0018F728 /* Sources */,
+				E58737131D4938FF0018F728 /* Frameworks */,
+				E58737141D4938FF0018F728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58737181D4938FF0018F728 /* PBXTargetDependency */,
+			);
+			name = Luongo_Test_LabelTests;
+			productName = Luongo_Test_LabelTests;
+			productReference = E58737161D4938FF0018F728 /* Luongo_Test_LabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E58737201D4938FF0018F728 /* Luongo_Test_LabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58737301D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_LabelUITests" */;
+			buildPhases = (
+				E587371D1D4938FF0018F728 /* Sources */,
+				E587371E1D4938FF0018F728 /* Frameworks */,
+				E587371F1D4938FF0018F728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58737231D4938FF0018F728 /* PBXTargetDependency */,
+			);
+			name = Luongo_Test_LabelUITests;
+			productName = Luongo_Test_LabelUITests;
+			productReference = E58737211D4938FF0018F728 /* Luongo_Test_LabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58736FA1D4938FF0018F728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luongo, Jonathan C.";
+				TargetAttributes = {
+					E58737011D4938FF0018F728 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E58737151D4938FF0018F728 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E58737011D4938FF0018F728;
+					};
+					E58737201D4938FF0018F728 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E58737011D4938FF0018F728;
+					};
+				};
+			};
+			buildConfigurationList = E58736FD1D4938FF0018F728 /* Build configuration list for PBXProject "Luongo_Test_Label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58736F91D4938FF0018F728;
+			productRefGroup = E58737031D4938FF0018F728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58737011D4938FF0018F728 /* Luongo_Test_Label */,
+				E58737151D4938FF0018F728 /* Luongo_Test_LabelTests */,
+				E58737201D4938FF0018F728 /* Luongo_Test_LabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58737001D4938FF0018F728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58737101D4938FF0018F728 /* LaunchScreen.storyboard in Resources */,
+				E587370D1D4938FF0018F728 /* Assets.xcassets in Resources */,
+				E587370B1D4938FF0018F728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58737141D4938FF0018F728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E587371F1D4938FF0018F728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58736FE1D4938FF0018F728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58737081D4938FF0018F728 /* ViewController.swift in Sources */,
+				E58737061D4938FF0018F728 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58737121D4938FF0018F728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E587371B1D4938FF0018F728 /* Luongo_Test_LabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E587371D1D4938FF0018F728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58737261D4938FF0018F728 /* Luongo_Test_LabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58737181D4938FF0018F728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58737011D4938FF0018F728 /* Luongo_Test_Label */;
+			targetProxy = E58737171D4938FF0018F728 /* PBXContainerItemProxy */;
+		};
+		E58737231D4938FF0018F728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58737011D4938FF0018F728 /* Luongo_Test_Label */;
+			targetProxy = E58737221D4938FF0018F728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E58737091D4938FF0018F728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E587370A1D4938FF0018F728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E587370E1D4938FF0018F728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E587370F1D4938FF0018F728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58737281D4938FF0018F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58737291D4938FF0018F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E587372B1D4938FF0018F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Luongo_Test_Label/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E587372C1D4938FF0018F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Luongo_Test_Label/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E587372E1D4938FF0018F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Luongo_Test_LabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-LabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luongo_Test_Label.app/Luongo_Test_Label";
+			};
+			name = Debug;
+		};
+		E587372F1D4938FF0018F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Luongo_Test_LabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-LabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luongo_Test_Label.app/Luongo_Test_Label";
+			};
+			name = Release;
+		};
+		E58737311D4938FF0018F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Luongo_Test_LabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-LabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luongo_Test_Label;
+			};
+			name = Debug;
+		};
+		E58737321D4938FF0018F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Luongo_Test_LabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.Luongo-Test-LabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luongo_Test_Label;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58736FD1D4938FF0018F728 /* Build configuration list for PBXProject "Luongo_Test_Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58737281D4938FF0018F728 /* Debug */,
+				E58737291D4938FF0018F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E587372A1D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E587372B1D4938FF0018F728 /* Debug */,
+				E587372C1D4938FF0018F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E587372D1D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_LabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E587372E1D4938FF0018F728 /* Debug */,
+				E587372F1D4938FF0018F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E58737301D4938FF0018F728 /* Build configuration list for PBXNativeTarget "Luongo_Test_LabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58737311D4938FF0018F728 /* Debug */,
+				E58737321D4938FF0018F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58736FA1D4938FF0018F728 /* Project object */;
+}
